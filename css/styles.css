@@ -28,27 +28,24 @@ body {
 }
 
 #news {
-    background-color: #effcff;
+    background-color: rgba(239, 252, 255, 0.8);
     margin: 30px 20px;
     border: 1px solid black;
-    opacity: 0.8;
     padding: 25px;
 }
 
 #sd {
     margin: 30px 20px;
     text-align: center;
-    background-color: #effcff;
+    background-color: rgba(239, 252, 255, 0.8);
     border: 1px solid black;
-    opacity: 0.8;
     padding: 25px;
 }
 
-#about {
-    background-color: #effcff;
+#cmc {
+    background-color: rgba(239, 252, 255, 0.8);
     margin: 30px 20px;
     border: 1px solid black;
-    opacity: 0.8;
     padding: 25px;
 }
 
@@ -63,5 +60,15 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    #sd {
+        margin: 30px 20px;
+        text-align: justify;
+        background-color: rgba(239, 252, 255, 0.8);
+        border: 1px solid black;
+    }
+    #sd img {
+        margin: 10px;
+        float: left;
     }
 }
