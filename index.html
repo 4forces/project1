@@ -14,44 +14,76 @@
     <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
-<body>
+<body class="parallax">
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
+
         <!-- logo -->
         <a class=" navbar-brand " href="index.html ">
             <img id="logo " src="/images/logo-trsp.png " height="50" class="d-inline-block align-top" alt="Society Logo" loading="lazy">
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- home-menu-dropdown -->
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Home
                 </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">News Updates</a>
-                        <a class="dropdown-item" href="#">Cakkavala Medication Centre</a>
-                        <a class="dropdown-item" href="#">Sayalay Dipankara</a>
+                        <a class="dropdown-item" href="#news">News Updates</a>
+                        <a class="dropdown-item" href="#about">Cakkavala Medication Centre</a>
+                        <a class="dropdown-item" href="#sd">Sayalay Dipankara</a>
                     </div>
                 </li>
+                <!-- e-dhamma-link -->
                 <li class="nav-item active">
                     <a class="nav-link" href="#">e-dhamma <span class="sr-only">(current)</span></a>
                 </li>
+                <!-- contact-link -->
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                 </li>
-
             </ul>
         </div>
     </nav>
 
-    <!-- hero-image -->
+
+    <!-- news-updates-carousel-->
+    <section id='news' class="shadow-lg p-3 mb-5 rounded">
+        News carousel will come here
+
+    </section>
+
+    <!-- sd -->
+    <section id='sd'>
+        <h2> Sayalay Dipankara </h2>
+        <img id='sd-img' src="/images/sd.jpg" alt='Sayalay Photo'>
+        <p>Sayalay Daw Dipankara Theri was born in 1964 in Myanmar. At a young age, Sayalay started the meditation practice without external instruction. As she matured, she continued her practice but with guidance from various great meditation masters.
+            She accomplished the practice within a very short period, under the guidance of her skilful teacher, Ven. Pak-Auk Sayadaw. <br><br> In 1990, she was ordained as a Buddhist nun at Pak-Auk Tawya Monastery, Myanmar. Since then, she was trained
+            to be a meditation teacher. Sayalay Dipankara is experienced in teaching any of the 40 Kamatthana as mentioned in the Visuddhi Magga (e.g. Anapanasati, Four Elements Meditation, Metta, Buddhanussati, Asubha, Marananussati and 8 Samapatti (1st
+            to 8th Jhana), Kasina meditation, etc) and Vipassana Meditation.<br><br> In 1996, she was invited to Sri Lanka by the highly respected Mahathera, Venerable U Ariya Dhamma to assist her teacher, Ven. Pak-Auk Sayadaw in guiding the yogis. Since
+            then for 25 years till present, she has been invited by various Buddhist Centres to conduct talks and intensive meditation retreats in different countries such as USA, Germany, Italy, Canada, Japan, England, Taiwan, Hong Kong, Korea, China,
+            Malaysia, Indonesia, Singapore, Sri Lanka, Australia, Vietnam etc.<br><br> In 2000, Sayalay founded Cakkavala Meditation Centre in Singapore and is the spiritual advisor of the centre till the present.<br><br> In 2006, Sayalay founded Brahma
+            Vihari Meditation Centre (Myanmar) to conduct longer meditation retreats for local and international meditators. Sayalay is also the founder and abbess of three other international Brahma Vihari Meditation Centres in Muar (Malaysia), Penang
+            (Malaysia) and Subang (Indonesia).<br><br> On 20th March 2019, the Ministry of Religious Affairs and Culture (Myanmar) and the Government of the Republic of the Union of Myanmar conferred upon Sayalay Daw Dipankara Theri the hononary title
+            of "Great International Meditation Master" in recognition of her extensive Dhamma teachings worldwide for the benefit of all.</p>
+    </section>
+
+    <!-- about -->
+    <section id='about' class="shadow-lg p-3 mb-5 rounded">
+        about cmc
+
+    </section>
 
 
 
 
-    <!-- <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js "></script> -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js "></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>

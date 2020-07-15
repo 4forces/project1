@@ -8,32 +8,60 @@
 
 .navbar {
     /* border: solid black 2px; */
-    background-color: #e3f2fd;
+    background-color: rgba(227, 242, 253, 0.6);
 }
 
-
-/*size 768px and bigger*/
-
-@media only screen and (min-width:768px) {
-    body {
-        background-color: greenyellow;
-    }
+body {
+    height: 100%;
 }
 
-
-/*size 900px and bigger*/
-
-@media only screen and (min-width:992px) {
-    body {
-        background-color: orange;
-    }
+.parallax {
+    /* The image used */
+    background-image: url("/images/home-bv.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#news {
+    background-color: #effcff;
+    margin: 30px 20px;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding: 25px;
+}
 
-/*size 1200px and bigger*/
+#sd {
+    margin: 30px 20px;
+    text-align: center;
+    background-color: #effcff;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding: 25px;
+}
+
+#about {
+    background-color: #effcff;
+    margin: 30px 20px;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding: 25px;
+}
 
 @media only screen and (min-width:1200px) {
-    body {
-        background-color: rgb(201, 54, 54);
+    .parallax {
+        /* The image used */
+        background-image: url("/images/home-bv.jpg");
+        /* Full height */
+        height: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
