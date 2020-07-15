@@ -1,8 +1,14 @@
 /*navbar*/
 
-#logo {
-    height: 50px;
+
+/* #logo {
+    height: 75px;
     margin-left: 10px;
+} */
+
+.navbar {
+    /* border: solid black 2px; */
+    background-color: #e3f2fd;
 }
 
 
@@ -10,16 +16,16 @@
 
 @media only screen and (min-width:768px) {
     body {
-        background-color: violet);
+        background-color: greenyellow;
     }
 }
 
 
 /*size 900px and bigger*/
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:992px) {
     body {
-        background-color: greenyellow;
+        background-color: orange;
     }
 }
 
@@ -28,6 +34,6 @@
 
 @media only screen and (min-width:1200px) {
     body {
-        background-color: grey;
+        background-color: rgb(201, 54, 54);
     }
 }
