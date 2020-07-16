@@ -6,13 +6,13 @@
     margin-left: 10px;
 } */
 
+body {
+    height: 100%;
+}
+
 .navbar {
     /* border: solid black 2px; */
     background-color: rgba(227, 242, 253, 0.6);
-}
-
-body {
-    height: 100%;
 }
 
 .parallax {
@@ -27,7 +27,11 @@ body {
     background-size: cover;
 }
 
-#news {
+#news,
+#readings,
+#audio,
+#talks,
+#messages {
     background-color: rgba(239, 252, 255, 0.8);
     margin: 30px 20px;
     border: 1px solid black;
@@ -44,31 +48,34 @@ body {
 
 #cmc {
     background-color: rgba(239, 252, 255, 0.8);
+    background-image: url("/images/about-cmc.png");
     margin: 30px 20px;
     border: 1px solid black;
     padding: 25px;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: repeat;
+    background-size: 400px;
+}
+
+#cmc-abt-logo {
+    margin: 20px;
+    float: right;
+    height: 150px;
 }
 
 @media only screen and (min-width:1200px) {
     .parallax {
-        /* The image used */
-        background-image: url("/images/home-bv.jpg");
-        /* Full height */
-        height: 100%;
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     #sd {
-        margin: 30px 20px;
         text-align: justify;
-        background-color: rgba(239, 252, 255, 0.8);
-        border: 1px solid black;
     }
     #sd img {
         margin: 10px;
         float: left;
+    }
+    #cmc {
+        text-align: justify;
     }
 }
