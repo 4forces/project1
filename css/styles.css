@@ -8,14 +8,19 @@
 
 body {
     height: 100%;
+    padding-top: 65px;
 }
+
+
+/* homepage */
 
 .navbar {
     /* border: solid black 2px; */
-    background-color: rgba(227, 242, 253, 0.6);
+    background-color: rgb(209, 229, 250);
+    margin-bottom: 20px;
 }
 
-.parallax {
+#home-img {
     /* The image used */
     background-image: url("/images/home-bv.jpg");
     /* Full height */
@@ -27,24 +32,59 @@ body {
     background-size: cover;
 }
 
-#news,
-#readings,
-#audio,
-#talks,
-#messages {
-    background-color: rgba(239, 252, 255, 0.8);
+
+/* .carousel {
+    height: 100vh;
+} */
+
+
+/* e-dhamma page */
+
+#ed-img {
+    /* The image used */
+    background-image: url("/images/h-bv3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-up {
+    background-image: url("/images/about-cmc.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-color: #05d1ff23;
     margin: 30px 20px;
     border: 1px solid black;
     padding: 25px;
 }
 
+#test,
+#news,
+#readings,
+#audio,
+#talks,
+#messages,
 #sd {
+    background-color: rgba(239, 252, 255, 0.95);
+    margin: 30px 20px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+
+/* #sd {
     margin: 30px 20px;
     text-align: center;
     background-color: rgba(239, 252, 255, 0.8);
     border: 1px solid black;
     padding: 25px;
-}
+}*/
 
 #cmc {
     background-color: rgba(239, 252, 255, 0.8);
@@ -65,7 +105,7 @@ body {
 }
 
 @media only screen and (min-width:1200px) {
-    .parallax {
+    #home-img {
         background-position: center;
     }
     #sd {
