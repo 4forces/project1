@@ -1,23 +1,29 @@
-/*navbar*/
-
-
-/* #logo {
-    height: 75px;
-    margin-left: 10px;
-} */
-
 body {
     height: 100%;
     padding-top: 65px;
 }
 
-
-/* homepage */
-
 .navbar {
     /* border: solid black 2px; */
     background-color: rgb(209, 229, 250);
     margin-bottom: 20px;
+}
+
+
+/* General Settings */
+
+#news,
+#sd,
+#cmc-bg-box,
+#readings,
+#test,
+#audio,
+#talks,
+#messages {
+    background-color: rgba(239, 252, 255, 0.9);
+    margin: 30px 20px;
+    border: 1px solid black;
+    padding: 25px;
 }
 
 #home-img {
@@ -32,18 +38,8 @@ body {
     background-size: cover;
 }
 
-
-/* .carousel {
-    height: 100vh;
-} */
-
-
-/* e-dhamma page */
-
 #ed-img {
-    /* The image used */
     background-image: url("/images/h-bv3.jpg");
-    /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -52,29 +48,19 @@ body {
     background-size: cover;
 }
 
-.box-up {
+#cmc-abt-logo {
+    margin: 20px;
+    float: right;
+    height: 150px;
+}
+
+#cmc-bg-box {
     background-image: url("/images/about-cmc.png");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-color: #05d1ff23;
-    margin: 30px 20px;
-    border: 1px solid black;
-    padding: 25px;
-}
-
-#test,
-#news,
-#readings,
-#audio,
-#talks,
-#messages,
-#sd {
-    background-color: rgba(239, 252, 255, 0.95);
-    margin: 30px 20px;
-    border: 1px solid black;
-    padding: 25px;
+    background-repeat: repeat;
+    background-size: 400px;
+    /* background-color: rgba(239, 252, 255, 0.5); */
 }
 
 
@@ -85,24 +71,6 @@ body {
     border: 1px solid black;
     padding: 25px;
 }*/
-
-#cmc {
-    background-color: rgba(239, 252, 255, 0.8);
-    background-image: url("/images/about-cmc.png");
-    margin: 30px 20px;
-    border: 1px solid black;
-    padding: 25px;
-    background-attachment: fixed;
-    /* background-position: center; */
-    background-repeat: repeat;
-    background-size: 400px;
-}
-
-#cmc-abt-logo {
-    margin: 20px;
-    float: right;
-    height: 150px;
-}
 
 @media only screen and (min-width:1200px) {
     #home-img {
