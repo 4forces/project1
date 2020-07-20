@@ -24,4 +24,4 @@ To ask Malcolm:
     -  This are after adding .container 
 4. footer bar is in the middle of the screen
 5. Carousel disappears
-6. Border does not appear grey although i have indicated
+6. Border does not appear grey although indicated
