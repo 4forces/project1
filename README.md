@@ -18,3 +18,4 @@ To ask Malcolm:
 3. CMC logo does not center, stays on right when mobile size.
     - @ large screen size, logo shifts to left
     -  This are after adding .container 
+4. footer bar is in the middle of the screen

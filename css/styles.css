@@ -1,103 +1,99 @@
-body {
-    height: 100%;
-    padding-top: 65px;
-}
-
-
-/* navbar */
-
-.navbar {
-    /* border: solid black 2px; */
-    background-color: rgb(209, 229, 250);
-    margin-bottom: 20px;
-}
-
-
-/* General background Settings for sections in all pages*/
-
-#news,
-#sd,
-#cmc-bg-box,
-#readings,
-#test,
-#audio,
-#talks,
-#messages,
-#get-in-touch {
-    background-color: rgba(239, 252, 255, 0.925);
-    /* margin: 30px 20px; */
-    border: 1px solid gray;
-    padding: 25px;
-}
-
-.thumbnail {
-    height: 100px;
-}
-
-
-/* Home page */
-
-#home-img {
-    /* The image used */
-    background-image: url("/images/home-bv.jpg");
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 30% 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* Home - News */
-
-.carousel-inner>.item>img {
-    margin: 0 auto;
-}
-
-
-/* Home - About CMC */
-
-#cmc-abt-logo {
-    margin: 20px;
-    float: right;
-    height: 150px;
-}
-
-#cmc-bg-box {
-    background-image: url("/images/about-cmc.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 100px;
-}
-
-
-/* e-dhamma */
-
-#ed-img {
-    background-image: url("/images/h-bv3.jpg");
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#contact-img {
-    background-image: url("/images/h-bv5a.jpg");
-    /* height: 100%; */
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 90% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* @media only screen and (min-width:768px) {
+    body {
+        height: 100%;
+        padding-top: 65px;
+    }
+    /* navbar */
+    
+    .navbar {
+        /* border: solid black 2px; */
+        background-color: rgb(209, 229, 250);
+        margin-bottom: 20px;
+    }
+    /* General background Settings for sections in all pages*/
+    
+    #news,
+    #sd,
+    #cmc-bg-box,
+    #readings,
+    #test,
+    #audio,
+    #talks,
+    #messages,
+    #get-in-touch {
+        background-color: rgba(239, 252, 255, 0.925);
+        /* margin: 30px 20px; */
+        border: 1px solid gray;
+        padding: 25px;
+    }
+    
+    .thumbnail {
+        height: 100px;
+    }
+    
+    .footer {
+        text-align: center;
+        /* position: absolute; */
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        line-height: 50px;
+        background-color: rgba(209, 229, 250, .8);
+    }
+    /* Home page */
+    
+    #home-img {
+        /* The image used */
+        background-image: url("/images/home-bv.jpg");
+        /* Full height */
+        height: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 30% 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Home - News */
+    
+    .carousel-inner>.item>img {
+        margin: 0 auto;
+    }
+    /* Home - About CMC */
+    
+    #cmc-abt-logo {
+        margin: 20px;
+        float: right;
+        height: 150px;
+    }
+    
+    #cmc-bg-box {
+        background-image: url("/images/about-cmc.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 100px;
+    }
+    /* e-dhamma */
+    
+    #ed-img {
+        background-image: url("/images/h-bv3.jpg");
+        height: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #contact-img {
+        background-image: url("/images/h-bv5a.jpg");
+        /* height: 100%; */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 90% 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* @media only screen and (min-width:768px) {
     #home-img {
         background-position: center;
     }
