@@ -45,7 +45,7 @@
     /* Homepage */
     
     #home-img {
-        background-image: url("images/home-bv.jpg");
+        background-image: url("/images/home-bv.jpg");
         height: 100%;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -76,7 +76,7 @@
     /* e-dhamma page */
     
     #ed-img {
-        background-image: url("images/h-bv3.jpg");
+        background-image: url("/images/h-bv3.jpg");
         height: 100%;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -87,7 +87,7 @@
     /* contact page */
     
     #contact-img {
-        background-image: url("images/h-bv5a.jpg");
+        background-image: url("/images/h-bv5a.jpg");
         /* height: 100%; */
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
