@@ -45,7 +45,7 @@
     /* Homepage */
     
     #home-img {
-        background-image: url("/images/home-bv.jpg");
+        background-image: url("images/home-bv.jpg");
         height: 100%;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
