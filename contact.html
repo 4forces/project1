@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link href="/css/animate.min.css" rel="stylesheet"> -->
+    <!-- <link href="/css/bootstrap-dropdownhover.min.css" rel="stylesheet"> -->
+    <link href="/css/styles.css" rel="stylesheet">
+
+    <title>CMC</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+
+<body id="contact-img">
+    <!-- navbar -->
+    <nav class="fixed-top navbar navbar-expand-md navbar-light">
+
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html ">
+            <img id="logo " src="/images/logo-trsp.png " height="50" class="d-inline-block align-top" alt="Society Logo" loading="lazy">
+        </a>
+        <!-- dropdown-button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- e-dhamma-menu-dropdown -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#get-in-touch">Get in touch</a>
+                        <a class="dropdown-item" href="#subscribe">Subscribe</a>
+                    </div>
+                </li>
+                <!-- e-dhamma-link -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- contact-link -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="edhamma.html">E-dhamma <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Get in touch -->
+    <Section id="get-in-touch" class="container">
+        <div style="text-align:center">
+            <h2>Get in touch</h2>
+        </div>
+        <form class="container">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <textarea class="form-control" id="name" rows="1" placeholder='Your name'></textarea>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email address">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder='Please type your message here'></textarea>
+            </div>
+            <input type='checkbox' name='mail-list' id='mail-list' value='mail-list'>
+            <label for="about">Please check if you wish to subscribe to our mail list. </label><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>

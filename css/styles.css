@@ -22,7 +22,8 @@ body {
 #test,
 #audio,
 #talks,
-#messages {
+#messages,
+#get-in-touch {
     background-color: rgba(239, 252, 255, 0.925);
     /* margin: 30px 20px; */
     border: 1px solid black;
@@ -81,7 +82,18 @@ body {
     background-size: cover;
 }
 
-@media only screen and (min-width:768px) {
+#contact-img {
+    background-image: url("/images/h-bv5a.jpg");
+    /* height: 100%; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 90% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* @media only screen and (min-width:768px) {
     #home-img {
         background-position: center;
     }
@@ -96,4 +108,4 @@ body {
     #cmc {
         text-align: justify;
     }
-}
+} */
