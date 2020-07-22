@@ -4,7 +4,7 @@
         height: 100%;
         padding-top: 65px;
         font-family: 'Lato', 'Roboto', sans-serif;
-        color: rgb(45, 45, 45);
+        color: rgb(40, 60, 100);
     }
     
     .navbar {
@@ -28,6 +28,20 @@
         color: rgb(40, 60, 100);
     }
     /* Common Settings for sections in all pages */
+    
+    .footer>a {
+        padding-left: 10px;
+    }
+    
+    .fa {
+        font-size: 40px;
+        color: rgb(40, 60, 100);
+    }
+    
+    .fa:hover {
+        font-size: 45px;
+        color: rgb(110, 150, 230);
+    }
     
     #news,
     #sd,
