@@ -8,6 +8,7 @@
 .carousel-inner>.carousel-item>img {
     margin: 0 auto;
     transform: translateX(5%);
+    min-width: 100%;
 }
 
 .carousel-caption {
