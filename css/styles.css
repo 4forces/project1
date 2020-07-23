@@ -10,6 +10,8 @@ body {
 .navbar {
     /* border: solid black 2px; */
     background-color: rgb(209, 229, 250, 0.8);
+    /* transition: top 0.3s; */
+    /* Transition effect when sliding down (and up) */
 }
 
 .navbar:hover {

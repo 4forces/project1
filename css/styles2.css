@@ -1,13 +1,13 @@
-.container-fluid {
-    background-color: rgba(239, 252, 255, 0.95);
-    margin: 30px 20px;
+.container {
+    background-color: #effcfff2;
+    /* margin: 30px 20px; */
     border: 1px solid black;
     padding: 25px;
 }
 
 .carousel-inner>.carousel-item>img {
     margin: 0 auto;
-    transform: translateX(5%);
+    /* transform: translateX(5%); */
     min-width: 100%;
 }
 

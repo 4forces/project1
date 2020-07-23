@@ -67,7 +67,7 @@
             <div class='col-md-2'></div>
             <div class='col-md-8'>
                 <!-- Carousel Slider -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -75,8 +75,8 @@
                     </ol>
                     <!-- Carousel Captions -->
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="img-fluid" src="images/flower1-rs.png" alt="First slide Background">
+                        <div class="carousel-item active" data-interval="5000">
+                            <img class="img-fluid" src="images/flower1-rs.png" alt="Flower 1 Background">
                             <div class="container">
                                 <div class="carousel-caption d-block">
                                     <h5>Saturday Sittings Cancelled Till End of May 2020</h5>
@@ -86,8 +86,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid" src="images/flower2-rs.png" alt="Second slide Background">
+                        <div class="carousel-item" data-interval="5000">
+                            <img class="img-fluid" src="images/flower2-rs.png" alt="Flower 2 Background">
                             <div class="container">
                                 <div class="carousel-caption d-block">
                                     <h5>Weekly meditation @ Vimalakirti Buddhist Centre</h5>
@@ -98,8 +98,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid" src="images/flower4-rs.png" alt="Third slide Background">
+                        <div class="carousel-item" data-interval="5000">
+                            <img class="img-fluid" src="images/flower4-rs.png" alt="Flower 3 Background">
                             <div class="container">
                                 <div class="carousel-caption d-block">
                                     <h5>Sayalay Dipankara's Retreat Schedule 2020</h5>
@@ -125,16 +125,21 @@
     <!-- about-sd -->
     <section id='sd' class="container shadow-lg p-3 mb-5 rounded">
         <h2> Sayalay Dipankara </h2>
-        <img src="images/sd.jpg" alt="Sayalay's Photo" class='img-fluid'>
-        <p>Sayalay Daw Dipankara Theri was born in 1964 in Myanmar. At a young age, Sayalay started the meditation practice without external instruction. As she matured, she continued her practice but with guidance from various great meditation masters.
-            She accomplished the practice within a very short period, under the guidance of her skilful teacher, Ven. Pak-Auk Sayadaw. <br><br> In 1990, she was ordained as a Buddhist nun at Pak-Auk Tawya Monastery, Myanmar. Since then, she was trained
-            to be a meditation teacher. Sayalay Dipankara is experienced in teaching any of the 40 Kamatthana as mentioned in the Visuddhi Magga (e.g. Anapanasati, Four Elements Meditation, Metta, Buddhanussati, Asubha, Marananussati and 8 Samapatti (1st
-            to 8th Jhana), Kasina meditation, etc) and Vipassana Meditation.<br><br> In 1996, she was invited to Sri Lanka by the highly respected Mahathera, Venerable U Ariya Dhamma to assist her teacher, Ven. Pak-Auk Sayadaw in guiding the yogis. Since
-            then for 25 years till present, she has been invited by various Buddhist Centres to conduct talks and intensive meditation retreats in different countries such as USA, Germany, Italy, Canada, Japan, England, Taiwan, Hong Kong, Korea, China,
-            Malaysia, Indonesia, Singapore, Sri Lanka, Australia, Vietnam etc.<br><br> In 2000, Sayalay founded Cakkavala Meditation Centre in Singapore and is the spiritual advisor of the centre till the present.
-            <br><br> In 2006, Sayalay founded Brahma Vihari Meditation Centre (Myanmar) to conduct longer meditation retreats for local and international meditators. Sayalay is also the founder and abbess of three other international Brahma Vihari Meditation
-            Centres in Muar (Malaysia), Penang (Malaysia) and Subang (Indonesia).<br><br> On 20th March 2019, the Ministry of Religious Affairs and Culture (Myanmar) and the Government of the Republic of the Union of Myanmar conferred upon Sayalay Daw
-            Dipankara Theri the hononary title of "Great International Meditation Master" in recognition of her extensive Dhamma teachings worldwide for the benefit of all.</p>
+        <div class='row'>
+            <div class=col-md-2>
+                <img src="images/sd.jpg" alt="Sayalay's Photo" class='img-fluid'>
+            </div>
+            <div class="col-md-10">
+                <p>Sayalay Daw Dipankara Theri was born in 1964 in Myanmar. At a young age, Sayalay started the meditation practice without external instruction. As she matured, she continued her practice but with guidance from various great meditation masters.
+                    She accomplished the practice within a very short period, under the guidance of her skilful teacher, Ven. Pak-Auk Sayadaw. <br><br> In 1990, she was ordained as a Buddhist nun at Pak-Auk Tawya Monastery, Myanmar. Since then, she was
+                    trained to be a meditation teacher. Sayalay Dipankara is experienced in teaching any of the 40 Kamatthana as mentioned in the Visuddhi Magga (e.g. Anapanasati, Four Elements Meditation, Metta, Buddhanussati, Asubha, Marananussati and
+                    8 Samapatti (1st to 8th Jhana), Kasina meditation, etc) and Vipassana Meditation.<br><br> In 1996, she was invited to Sri Lanka by the highly respected Mahathera, Venerable U Ariya Dhamma to assist her teacher, Ven. Pak-Auk Sayadaw
+                    in guiding the yogis. Since then for 25 years till present, she has been invited by various Buddhist Centres to conduct talks and intensive meditation retreats in different countries such as USA, Germany, Italy, Canada, Japan, England,
+                    Taiwan, Hong Kong, Korea, China, Malaysia, Indonesia, Singapore, Sri Lanka, Australia, Vietnam etc.<br><br> In 2000, Sayalay founded Cakkavala Meditation Centre in Singapore and is the spiritual advisor of the centre till the present.
+                    <br><br> In 2006, Sayalay founded Brahma Vihari Meditation Centre (Myanmar) to conduct longer meditation retreats for local and international meditators. Sayalay is also the founder and abbess of three other international Brahma Vihari
+                    Meditation Centres in Muar (Malaysia), Penang (Malaysia) and Subang (Indonesia).<br><br> On 20th March 2019, the Ministry of Religious Affairs and Culture (Myanmar) and the Government of the Republic of the Union of Myanmar conferred
+                    upon Sayalay Daw Dipankara Theri the hononary title of "Great International Meditation Master" in recognition of her extensive Dhamma teachings worldwide for the benefit of all.</p>
+            </div>
         </div>
     </section>
 
@@ -167,6 +172,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="JS/autohide.js"></script> -->
     <!-- <script src="js/bootstrap-dropdownhover.js"></script> -->
     <!-- <script src="js/smoothscroll.js"></script> -->
 </body>
