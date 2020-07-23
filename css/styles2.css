@@ -4,3 +4,17 @@
     border: 1px solid black;
     padding: 25px;
 }
+
+.carousel-inner>.carousel-item>img {
+    margin: 0 auto;
+    transform: translateX(5%);
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    color: red;
+}
