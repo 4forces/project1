@@ -7,7 +7,8 @@ body {
     color: rgb(40, 60, 100);
 }
 
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -19,7 +20,7 @@ h2 {
 }
 
 .nav-link:hover {
-    font-size: 1.02rem;
+    text-decoration: underline overline;
 }
 
 .navbar:hover {
@@ -35,7 +36,6 @@ h2 {
 #readings,
 #test,
 #audio,
-#talks,
 #messages,
 #get-in-touch,
 #ext-links {
@@ -148,11 +148,20 @@ h2 {
 }
 
 .section-bdr {
-    border: 1px solid gray
+    border: 1px solid rgb(214, 214, 214)
 }
 
 .thumbnail {
     height: 6em;
+}
+
+.ed-tnail-center {
+    text-align: center;
+}
+
+#readings img:hover,
+#audio img:hover {
+    border: 2px solid #b499ff;
 }
 
 
@@ -176,7 +185,7 @@ h2 {
 }
 
 @media only screen and (max-width:960px) {
-    .home-tn {
+    .h-tnail-center {
         text-align: center;
     }
 }
