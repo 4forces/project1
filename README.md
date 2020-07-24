@@ -26,3 +26,4 @@ To ask Malcolm:
 7. Border does not color grey although indicated in elements
 +8. Page background images do not display when viewed from online (github.io) when set to both "images/pic.jpg" and "/images/pic.jpg"
     Conversely, adding "/" on Local machine (/mages/pic.jpg) will show page backgrounds [using LiveServer]...Leaving "/" out does not display the page background for this case. interestingly. 
+9. 960-991px: img shifts to left

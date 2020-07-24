@@ -7,11 +7,19 @@ body {
     color: rgb(40, 60, 100);
 }
 
+h2 {
+    text-align: center;
+}
+
 .navbar {
     /* border: solid black 2px; */
     background-color: rgb(209, 229, 250, 0.8);
     /* transition: top 0.3s; */
     /* Transition effect when sliding down (and up) */
+}
+
+.nav-link:hover {
+    font-size: 1.02rem;
 }
 
 .navbar:hover {
@@ -108,13 +116,23 @@ body {
     height: 150px;
 } */
 
-#cmc-bg-box {
+.box-bg {
     background-image: url("../images/about-cmc.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
     background-size: 6.25em;
 }
+
+
+/* 
+.box-bg1 {
+    background-image: url("../images/bg-bv-logo.PNG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 6.25em;
+} */
 
 
 /* e-dhamma page */
@@ -127,6 +145,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-bdr {
+    border: 1px solid gray
 }
 
 .thumbnail {
@@ -150,6 +172,12 @@ body {
     .carousel-caption {
         top: 50%;
         transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .home-tn {
+        text-align: center;
     }
 }
 
