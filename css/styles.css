@@ -14,19 +14,19 @@ h3 {
 
 .navbar {
     /* border: solid black 2px; */
-    background-color: rgb(209, 229, 250, 0.8);
+    background-color: rgb(209, 229, 250);
+    position: fixed;
     /* transition: top 0.3s; */
     /* Transition effect when sliding down (and up) */
 }
 
-.nav-link:hover {
-    text-decoration: underline overline;
+.nav-item:hover {
+    color: rgb(100, 40, 40);
 }
 
 .navbar:hover {
     background-color: rgba(209, 229, 250);
 }
-
 
 /* Common Settings for sections in all pages */
 
@@ -62,7 +62,7 @@ h3 {
     width: 100%;
     height: 40px;
     line-height: 50px; */
-    background-color: rgba(209, 229, 250, .8);
+    background-color: rgba(209, 229, 250);
     color: rgb(40, 60, 100);
 }
 
