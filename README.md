@@ -106,4 +106,5 @@ __Fonts and Icons:__
 3. [Favicon.io](https://favicon.io/favicon-converter/)
 
 __Scripts:__
-1. [Smooth scrolling effect](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
+1. [Bootstrap v4.0](https://getbootstrap.com/)
+2. [Smooth scrolling effect](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
