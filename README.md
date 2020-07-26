@@ -23,9 +23,11 @@ A live demo of the revamped website can be accessed here: https://4forces.github
 Initial wireframing was done via hand-sketches on paper. This was subsequently digitised by porting over to Adobe XD. Screenshots:
 
 *Figure (a): Wireframes by Hand-sketching*
+
 <img src="images/wf-sketch1.jpeg" width="400" style="margin: 0;"> <img src="images/wf-sketch2.jpeg" width="400" style="margin: 0;"> 
 
 *Figure (b): Wireframes by Adobe XD*
+
 <img src="images/xd1.png" width="150" style="margin: 0;"> <img src="images/xd2.png" width="150" style="margin: 0;"> <img src="images/xd3.png" width="150" style="margin: 0;">
 
 ### Appearance
