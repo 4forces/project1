@@ -9,7 +9,7 @@ The society "Cakkavala Meditation Centre" was set up in 2000. Thereafter it set 
 The website's layout (link [here](http://www.cakkavala.org/index.htm)) has not changed since it was set up in 2000. 
 
 ### Problem statement
-New sections and pages were added as and when needed over time. As a result, the website gradually became disorganised and un-intuitive, with have to click on various pages to search for what they need. The site owner has additionally expressed the wish to improve the site by making it mobile responsive.  
+New sections and pages were added as and when needed over time. As a result, the website gradually became disorganised and un-intuitive, with having to click on various pages to search for what they need. The site owner has additionally expressed the wish to improve the site by making it mobile responsive.  
 
 ### Objective
 This project is an effort to revamp the original website, such that its layout is simple and conducive for viewing of information and accessing online resources. The next objective is to make the site mobile responsive.
@@ -20,7 +20,7 @@ A live demo of the revamped website can be accessed here: https://4forces.github
 ## 2. UX, UI and Features
 
 ### Wireframes
-Initial wireframing was done via hand-sketches on paper. This was subsequently digitised by porting over to Adobe XD. Screenshots:
+Initial wireframing was done via hand-sketches on paper. This was subsequently digitised by porting over to Adobe XD.
 
 *Figure (a): Wireframes by Hand-sketching*
 
@@ -31,7 +31,7 @@ Initial wireframing was done via hand-sketches on paper. This was subsequently d
 <img src="images/xd1.png" width="150" style="margin: 0;"> <img src="images/xd2.png" width="150" style="margin: 0;"> <img src="images/xd3.png" width="150" style="margin: 0;">
 
 ### Appearance
-The new site has a similar color theme with the original website, which is light-blue. Blue tones are related to stability, peace and calmness. 
+The new site has a similar color theme with the original website, which is light-blue. Blue tones are related to stability, peace and calmness - the qualities of meditation.  
 
 ### Features and Pages
 The following points were kept in mind in the design of the website: 
@@ -40,7 +40,7 @@ The following points were kept in mind in the design of the website:
 3. Ease of navigation
 
 __a) Home Page__
-Upon visiting the site, the first page visitors see shows the updates of recent activities. This is inline with one of its primary purpose, which is to inform and update on upcoming activities. After which is an introduction on the background of the meditation teacher and the society.  
+Upon visiting the site, the first page visitors see shows the updates of recent activities. This is inline with one of the site's primary purpose, which is to inform and update on upcoming activities. After which is an introduction of the background of the meditation teacher and the society.  
 
 __b) E-dhamma Page__
 This page serves as a central repository for the various online resources. The resource materials were scattered, and at times duplicated on various pages on the original site. 
@@ -49,16 +49,16 @@ __c) Contact Page__
 The contact page has a form element designed to receive enquiries and messages from visitors. It is hoped that this feature will provide some convenience to visitors making enquiries. The original site does not have this feature. An email address is also provided in the event visitors still wish to contact the society directly. 
 
 ### Target Audience
-The main visitors to the website will be those who are interested in updates on the weekly group meditation sittings and to-be conducted meditation retreats. The second group of visitors may be looking for resources related to the practice of meditation. 
+The main visitors to the website will be those who are interested in updates on the weekly group meditation sittings and to-be conducted meditation retreats. The second group of visitors are those who may be looking for resources related to the practice of meditation. 
 
 ### Future Improvements
-1. To incorporate a form of database to capture forms data of the contact page.
+1. To incorporate a form of database to capture forms data at the contact page.
 2. To include a message box to indicate successful form submission at the contact page. 
-3. To incorporate a form element for members registration. Either locally on the site, or an external site like Google forms. 
+3. To incorporate a form element for members registration. Either locally, or an external site like Google forms. 
 
 ## 3. Technologies Used
 The following technologies were used in the construction of this website:
-1. Bootstrap v4.0
+1. [Bootstrap v4.0](https://getbootstrap.com/)
 2. HTML
 3. CSS
 4. JavaScript
