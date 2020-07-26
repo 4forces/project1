@@ -1,3 +1,5 @@
+<img src="images/project1mockup.png" width="600" style="margin: 0;">
+
 # Project Title: Revamp of Cakkavala Meditation Centre Website
 
 ## 1. Overview
@@ -101,6 +103,7 @@ __Images:__
 __Fonts and Icons:__
 1. [Google Fonts](https://fonts.google.com/)
 2. [Font Awesome 4](https://fontawesome.com/v4.7.0/)
+3. [Favicon.io](https://favicon.io/favicon-converter/)
 
 __Scripts:__
 1. [Smooth scrolling effect](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
