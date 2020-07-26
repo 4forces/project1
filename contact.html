@@ -66,23 +66,24 @@
         <form class="container">
             <div class="form-group">
                 <label for="name">Name</label>
-                <textarea class="form-control" id="name" rows="1" placeholder="Your name"></textarea>
+                <textarea class="form-control" id="name" rows="1" placeholder="Your name" required></textarea>
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="Your email address">
+                    placeholder="Your email address" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" rows="3"
-                    placeholder="Please type your message here."></textarea>
+                    placeholder="Please type your message here." required></textarea>
             </div>
             <input type="checkbox" name="mail-list" id="mail-list" value="mail-list">
             <label for="about">Please check this box if you wish to subscribe to our mail list. </label><br>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <p><br>Alternatively, you may also email us at: <a href="mailto:enquiry@cakkavala.org">enquiry@cakkavala.org</a>.</p>
         </form>
     </section>
 
